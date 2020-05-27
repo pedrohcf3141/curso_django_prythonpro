@@ -14,6 +14,7 @@ gunicorn = "*"
 heroku = "*"
 flake8 = "*"
 pytest-django = "*"
+python-decouple = "*"
 
 [requires]
 python_version = "3.8"
