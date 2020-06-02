@@ -15,6 +15,7 @@ heroku = "*"
 flake8 = "*"
 pytest-django = "*"
 python-decouple = "*"
+psycopg2-binary = "*"
 
 [requires]
 python_version = "3.8"
