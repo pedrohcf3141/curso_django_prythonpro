@@ -16,6 +16,8 @@ flake8 = "*"
 pytest-django = "*"
 python-decouple = "*"
 psycopg2-binary = "*"
+django-debug-toolbar = "*"
+sentry-sdk = "*"
 
 [requires]
 python_version = "3.8"

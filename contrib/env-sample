@@ -2,3 +2,5 @@ DEBUG=False
 SECRET_KEY=defina sua chave secreta
 ALLOWED_HOSTS=localhost, 127.0.0.1
 DATA_BASE_URL=postgres://postgres:postgres@localhost/testdb
+INTERNAL_IPS=127.0.0.1
+SENTRY_DSN=https://b22572f9dcaa4c89bb8fb24d292a5d77@o404072.ingest.sentry.io/5267349
