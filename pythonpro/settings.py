@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'pythonpro.base',
+    'pythonpro.aperitivos',
 ]
 
 MIDDLEWARE = [
@@ -151,3 +152,4 @@ if SENTRY_DSN:
         # django.contrib.auth) you may enable sending PII data.
         send_default_pii=True
     )
+

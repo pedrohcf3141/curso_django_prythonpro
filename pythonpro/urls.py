@@ -16,20 +16,17 @@ Including another URLconf
 from django.contrib import admin
 from django.conf import settings
 from django.urls import include, path
-from pythonpro.base.views import home
-from django.shortcuts import render
+# from django.shortcuts import render
 
 
 def trigger_error(request):
     division_by_zero = 1 / 0
 
-def home(request):
-	return render(request, 'base/home.html')
-
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('pythonpro.base.urls')),
+    path('aperitivos/', include('pythonpro.aperitivos.urls')),
     path('sentry-debug/', trigger_error),
 
 ]
